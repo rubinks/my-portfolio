@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubinraj K | Portfolio</title>
+
+  <meta name="description" content="Rubinraj K - Computer Science Engineering student skilled in C, C++, Java, HTML, and CSS.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Rubin<span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-text">
+    <h1>Hello, I'm Rubinraj K</h1>
+    <p class="lead">
+      Computer Science Engineering student passionate about programming,
+      problem-solving, and front-end web development.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="container about">
+  <h2>About Me</h2>
+  <p>
+    I am a Computer Science Engineering student with a strong interest in software development
+    and problem-solving. I have a solid foundation in C, C++, and Java, along with hands-on
+    experience in HTML and CSS. I actively practice coding on platforms like LeetCode and
+    CodeChef to improve my logical thinking. My goal is to continuously grow as a software
+    developer and contribute to real-world projects.
+  </p>
+</section>
+
+<section id="skills" class="container skills">
+  <h2>Technical Skills</h2>
+
+  <div class="skill-grid">
+    <div class="skill">
+      <h3>C++</h3>
+      <div class="progress"><span style="--value:90%"></span></div>
+    </div>
+    <div class="skill">
+      <h3>C</h3>
+      <div class="progress"><span style="--value:85%"></span></div>
+    </div>
+    <div class="skill">
+      <h3>Java</h3>
+      <div class="progress"><span style="--value:75%"></span></div>
+    </div>
+    <div class="skill">
+      <h3>HTML & CSS</h3>
+      <div class="progress"><span style="--value:92%"></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="container projects">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p class="muted">Responsive personal portfolio using HTML & CSS.</p>
+    </div>
+</section>
+
+<section id="contact" class="container contact">
+  <h2>Contact Me</h2>
+  <p class="muted">Feel free to reach out for collaboration or opportunities.</p>
+
+  <form class="contact-form" onsubmit="handleSubmit(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button class="btn">Send Message</button>
+  </form>
+
+  <p id="form-status"></p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Rubinraj K</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/rubin-raj-a1b4ba387" target="_blank">LinkedIn</a>
+      <a href="https://leetcode.com/u/rubinraj_k/" target="_blank">LeetCode</a>
+      <a href="https://www.codechef.com/users/rubinraj_k" target="_blank">CodeChef</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
